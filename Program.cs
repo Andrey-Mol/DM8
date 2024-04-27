@@ -56,7 +56,7 @@ public class RecognizingAutomaton
             state = Transition(state, letter);
             Console.WriteLine($"Буква: {letter}; Состояние: {state}");
 
-            if (state == States.Final)
+            if (state == States.Error)
                 break;
         }
 
