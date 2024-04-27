@@ -1,12 +1,19 @@
-﻿while (true)
+﻿using System;
+public class Program
 {
-    Console.WriteLine("Введите слово: ");
+    public static void Main()
+    {
+        while (true)
+        {
+            Console.WriteLine("Введите слово: ");
 
-    if (RecognizingAutomaton.IsWord(Console.ReadLine()))
-        Console.WriteLine("+");
-    else
-        Console.WriteLine("-");
+            if (RecognizingAutomaton.IsWord(Console.ReadLine()))
+                Console.WriteLine("Слово\n");
+            else
+                Console.WriteLine("Не слово\n");
 
+        }
+    }
 }
 public class RecognizingAutomaton
 {
@@ -34,7 +41,7 @@ public class RecognizingAutomaton
         if (inputIndex == -1)
         {
             Console.WriteLine("такой буквы не может быть в алфавите!");
-            return States.Final;
+            return States.Error;
         }
 
         return (States)matrix[inputIndex, (int)currentState];
@@ -47,7 +54,7 @@ public class RecognizingAutomaton
         foreach (char letter in word)
         {
             state = Transition(state, letter);
-            Console.WriteLine($"Letter: {letter}; State: {state}");
+            Console.WriteLine($"Буква: {letter}; Состояние: {state}");
 
             if (state == States.Final)
                 break;
