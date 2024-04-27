@@ -1,0 +1,15 @@
+G:\pro\DM8\DM8\bin\Debug\net7.0\DM8.exe
+G:\pro\DM8\DM8\bin\Debug\net7.0\DM8.deps.json
+G:\pro\DM8\DM8\bin\Debug\net7.0\DM8.runtimeconfig.json
+G:\pro\DM8\DM8\bin\Debug\net7.0\DM8.dll
+G:\pro\DM8\DM8\bin\Debug\net7.0\DM8.pdb
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.csproj.AssemblyReference.cache
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.GeneratedMSBuildEditorConfig.editorconfig
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.AssemblyInfoInputs.cache
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.AssemblyInfo.cs
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.csproj.CoreCompileInputs.cache
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.dll
+G:\pro\DM8\DM8\obj\Debug\net7.0\refint\DM8.dll
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.pdb
+G:\pro\DM8\DM8\obj\Debug\net7.0\DM8.genruntimeconfig.cache
+G:\pro\DM8\DM8\obj\Debug\net7.0\ref\DM8.dll
